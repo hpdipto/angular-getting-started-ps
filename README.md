@@ -1,3 +1,7 @@
+# Angular: Getting Started - Pluralsight Course
+
+The source code of this repository is taken from `Angular: Getting Started` course from Pluralsight.
+
 # APM
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
