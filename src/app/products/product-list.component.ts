@@ -45,12 +45,15 @@ export class ProductListComponent implements OnInit {
 			starRating: 4.8,
 			imageUrl: "assets/images/hammer.png",
 		},
-		,
 	];
 
 	constructor() {
 		this.filteredProducts = this.products;
 		this.listFilter = "cart";
+	}
+
+	onRatingClicked(message: string): void {
+		this.pageTitle = "Product List: " + message;
 	}
 
 	performFilter(filterBy: string): IProduct[] {
